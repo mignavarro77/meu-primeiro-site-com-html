@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 130px 15px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+}
+nav ul li a:hover { 
+    color: white;
+    background: rgb(139, 139, 139); 
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.slogan {
+    text-align: center;
+    font-style:normal;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    font-family:fantasy;
+}
+#logo {
+    position: absolute;
+    border-radius: 150px;
+    left: 220px;
+    right: 100px;
+    top: none;
+    width: 210px;
+}
+.content {
+    background-color: #64fdf5;
+    min-height: 300px;
+    padding: 20px;
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+}
+.imagem {
+    position: absolute;
+    top: 110px;
+    left: 810px;
+    right: 0px;
+}
+.formulario {
+    max-width: 650px;
+    text-align:left;
+    margin: 30px;
+}
+.form-dados {
+    display:contents;
+}
+textarea {
+    width: 298px;
+    max-lines: 30;
+}
+button {
+    position: relative;
+    left: 30px;
+    background-color:#64fdf5 ;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: dimgray;
+    color: #f1f1f1;
+}
+iframe {
+    position: absolute;
+    top: 170px;
+    right: 100px;
+}
+#hernia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: aquamarine;
+    font-size: 20px;
+    color:rgb(100, 100, 100);
+}
+th, td {
+    border-color: aqua;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+    height: fit-content;
+    border-radius: 8%;
+}
+tr:nth-child(even) {
+    background-color: #d1dbdb;
+}
+.doctor {
+    position:absolute;
+    text-align:justify;
+    font-size: 15px;
+    padding:300px;
+    top: -150px;
+    color: rgb(100, 100, 100);
+}
+.paragrafo {
+    position: relative;
+    top: -50px;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    text-align:justify;
+}
+.front {
+    position: relative;
+    right: 20px;
+    opacity: 0.9;
+}
+.style {
+    text-align: center;
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+}
+#texto {
+    text-align: center;
+    position: relative;
+    color: rgb(100, 100, 100);
+    font-size: 25px;
+    top: 15px;
+    right: 0px;
+}
+.footer {
+    background-color:#ffffff;
+    min-height: 50px;
+}
+.text-editor1 {
+    text-align: center;
+    color:rgb(100, 100, 100);
+    width: 500px;
+}
+.icon {
+    position:relative;
+    padding-right: 100px;
+    left: 480px;
+    top: -70px;
+    color: rgb(100, 100, 100);
+}
